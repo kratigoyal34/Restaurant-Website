@@ -20,6 +20,12 @@ button:hover {
     transition: 0.2s ease-in-out;
 }
 
+/* body {
+    background-image: linear-gradient(#2c292b, #2c292b);
+    opacity: 0.6;
+} */
+
+/* navbar */
 
 nav {
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
@@ -39,18 +45,38 @@ nav {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 40px;
 }
+
 .bar_icon {
-    font-size: 32px;
+    font-size: 24px;
 }
 
+/* main section */
 
-.hero {
+.hero h3{
+    font-size: 26px;
+    padding: 0 20px;
+    margin: 18px 0px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.collage {
     display: flex;
-    gap: 100px;
+    gap: 84px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 42px
 }
+
+.collage img {
+    width: 260px;
+    height: 256px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
 .hero_content {
     display: flex;
     flex-direction: column;
